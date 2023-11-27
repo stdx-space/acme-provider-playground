@@ -1,0 +1,5 @@
+local.stdx.space:8000 {
+	respond "Hello, world!"
+	tls /etc/caddy/certs/cert.pem /etc/caddy/certs/key.pem {
+	}
+}
